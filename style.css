@@ -1,0 +1,114 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #007BFF, #00BFFF);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: white;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #f0f0f0;
+}
+
+/* Seção sobre */
+#sobre {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Seção inscrição */
+#inscricao {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#inscricao form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#inscricao input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+#inscricao button {
+    background: white;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#inscricao button:hover {
+    background: #f0f0f0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 15px;
+    font-size: 0.9rem;
+}
